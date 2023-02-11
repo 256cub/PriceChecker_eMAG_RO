@@ -132,14 +132,15 @@ Don't forget to give the project a star!
 If you discover any security-related issues, please email 256cub@gmail.com instead of using the issue tracker.
 
 
----
 ## Buy Me a Coffee
+
+This project will be always an open source, even if I don't get donations. 
+That being said, I know there are amazing people who may still want to donate just to show their appreciation.
+
 
 <a href="https://www.buymeacoffee.com/256cub" target="_blank">
 <img src="https://cdn.buymeacoffee.com/buttons/arial-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
-This project will be always an open source, even if I don't get donations. 
-That being said, I know there are amazing people who may still want to donate just to show their appreciation.
 
 **Thank you very much in advance !!!**
 
