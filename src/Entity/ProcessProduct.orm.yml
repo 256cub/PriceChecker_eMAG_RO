@@ -1,0 +1,74 @@
+App\Entity\ProcessProduct:
+    type: entity
+    table: process_product
+    indexes:
+        fk_process_product_process1_idx:
+            columns:
+                - process_id
+        fk_process_product_products1_idx:
+            columns:
+                - product_id
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        currentPrice:
+            type: float
+            nullable: false
+            precision: 10
+            scale: 2
+            column: current_price
+        updatedPrice:
+            type: float
+            nullable: true
+            precision: 10
+            scale: 2
+            column: updated_price
+        status:
+            type: string
+            nullable: false
+            length: 0
+            options:
+                fixed: false
+        reason:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+        dateUpdated:
+            type: datetime
+            nullable: true
+            column: date_updated
+        dateCreated:
+            type: datetime
+            nullable: true
+            column: date_created
+    manyToOne:
+        process:
+            targetEntity: Process
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                process_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+        product:
+            targetEntity: Products
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                product_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

@@ -1,0 +1,61 @@
+App\Entity\Products:
+    type: entity
+    table: products
+    indexes:
+        fk_products_companies1_idx:
+            columns:
+                - companies_id
+    id:
+        id:
+            type: integer
+            nullable: false
+            options:
+                unsigned: false
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        sku:
+            type: string
+            nullable: false
+            length: 12
+            options:
+                fixed: false
+        name:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+        url:
+            type: string
+            nullable: false
+            length: 255
+            options:
+                fixed: false
+        minimPrice:
+            type: float
+            nullable: false
+            precision: 10
+            scale: 2
+            column: minim_price
+        dateUpdated:
+            type: datetime
+            nullable: true
+            column: date_updated
+        dateCreated:
+            type: datetime
+            nullable: true
+            column: date_created
+    manyToOne:
+        companies:
+            targetEntity: Companies
+            cascade: {  }
+            fetch: LAZY
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                companies_id:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }
