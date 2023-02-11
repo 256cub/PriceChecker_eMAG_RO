@@ -95,3 +95,44 @@ This usually happens after +- 1000 page parsed.
 0 9 * * * php /{_PROJECT_PATH_}/bin/console parse:all
 ```
 - Replace "{_PROJECT_PATH_}" with project real path(ex: /var/www/price-checker/)
+
+
+## Support
+
+The team is always here to help you. 
+Happen to face an issue? Want to report a bug? 
+You can submit one here on GitHub using the [Issue Tracker](https://github.com/256cub/PriceChecker_eMAG_RO/issues/new). 
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
+Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
+You can also simply open an issue with the tag "feature". 
+Don't forget to give the project a star! 
+**Thanks again !!!**
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/YourNewFeature`)
+3. Commit your Changes (`git commit -m 'Add some YourNewFeature'`)
+4. Push to the Branch (`git push origin feature/YourNewFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Security
+
+If you discover any security-related issues, please email **256cub@gmail.com** instead of using the issue tracker.
+
+## Credits
+
+- [256cub](https://github.com/256cub)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
