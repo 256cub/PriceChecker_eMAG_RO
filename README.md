@@ -125,7 +125,7 @@ Don't forget to give the project a star!
 
 ## Security
 
-If you discover any security-related issues, please email **256cub@gmail.com** instead of using the issue tracker.
+If you discover any security-related issues, please email 256cub@gmail.com instead of using the issue tracker.
 
 
 ---
@@ -136,13 +136,13 @@ That being said, I know there are amazing people who may still want to donate ju
 
 **Thank you very much in advance !!!**
 
-We accept donations through Ko-fi, Paypal, BTC or ETH. 
+We accept donations through Ko-fi, PayPal, BTC or ETH. 
 You can use the buttons below to donate through your method of choice.
 
 |   Donate With   |                      Address                       |
 |:---------------:|:--------------------------------------------------:|
 |      Ko-fi      |       [Click Here](https://ko-fi.com/256cub)       |
-|     PayPal      | [Click Here](https://paypal.me/InsureZeroArticles) |
+|     PayPal      | [Click Here](https://paypal.me/256cub) |
 |   BTC Address   |         3MsUYeUfmpwVS2QrnRbLpCjGaVn2WDD6sj         |
 |   ETH Address   |     0x10cd16ba338661d2FB683B2481f8F5000FEd5663     |
 
