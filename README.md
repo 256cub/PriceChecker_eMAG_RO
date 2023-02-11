@@ -97,6 +97,8 @@ This usually happens after +- 1000 page parsed.
 - Replace "{_PROJECT_PATH_}" with project real path(ex: /var/www/price-checker/)
 
 
+---
+
 ## Support
 
 The team is always here to help you. 
@@ -123,6 +125,8 @@ Don't forget to give the project a star!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+
 ## Security
 
 If you discover any security-related issues, please email 256cub@gmail.com instead of using the issue tracker.
@@ -131,10 +135,14 @@ If you discover any security-related issues, please email 256cub@gmail.com inste
 ---
 ## Buy Me a Coffee
 
-AMF Bot is and always will be open source, even if I don't get donations. 
+<a href="https://www.buymeacoffee.com/256cub" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/arial-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+
+This project will be always an open source, even if I don't get donations. 
 That being said, I know there are amazing people who may still want to donate just to show their appreciation.
 
 **Thank you very much in advance !!!**
+
 
 We accept donations through Ko-fi, PayPal, BTC or ETH. 
 You can use the buttons below to donate through your method of choice.
@@ -153,6 +161,6 @@ You can use the buttons below to donate through your method of choice.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
